@@ -1,4 +1,5 @@
 body{
+    /* overflow remove the right side bar */
     overflow: hidden;
     background: linear-gradient(#f4f4ed, white);
 }
