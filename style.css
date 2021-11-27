@@ -31,3 +31,12 @@ body{
     outline: none;
     border: none;
 }
+
+.btn{
+    width: 24%;
+    height: 45px;
+    border-radius: 1px;
+    border: none;
+    margin-top: 3px;
+    background: whitesmoke;
+}
