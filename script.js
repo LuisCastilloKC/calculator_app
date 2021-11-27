@@ -21,3 +21,8 @@ const equal = () => {
     expression = '';
 }
 
+// the erase function will clear anything when user hit the button C
+const erase = () => {
+    expression = '';
+    userInput.value = expression;
+}
