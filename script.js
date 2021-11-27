@@ -11,3 +11,13 @@ const press = (num) => {
     expression += num;
     userInput.value = expression;
 }
+
+// 1. set the function equal from index.html
+// 2. what ever expression the user enter when user hit the equal button 
+// the value is going to be equal to the function of eval() 
+// eval will do the evaluation of the user input then if user hit another button the expression will clear to start
+const equal = () => {
+    userInput.value = eval(expression);
+    expression = '';
+}
+
